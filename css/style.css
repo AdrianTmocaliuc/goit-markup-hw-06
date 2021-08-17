@@ -766,6 +766,8 @@ header {
   position: absolute;
   top: 50%;
   transform: translate(-50%);
+  /* bottom: 12px; */
+  left: 12px;
   display: block;
   width: 18px;
   height: 18px;
