@@ -746,11 +746,11 @@ header {
 
 .modal-form-field {
   margin-bottom: 10px;
+  /* position: relative; */
 }
 
 .modal-form-input {
   width: 100%;
-  margin-top: 5px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -759,15 +759,16 @@ header {
 
 .modal-form-input-wrapper {
   position: relative;
+  margin-top: 5px;
 }
 
 .modal-form-icon {
   position: absolute;
+  top: 50%;
+  transform: translate(-50%);
   display: block;
   width: 18px;
   height: 18px;
-  top: 0;
-  left: 0;
 }
 
 .modal-form-checkbox-label {
